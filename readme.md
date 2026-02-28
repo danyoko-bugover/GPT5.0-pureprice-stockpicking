@@ -25,7 +25,7 @@
    - 輸出 → `output/`（目前可放結果或 log）。
 
 5. **投資組合優化（額外模組）**  
-   - `Monte-Carlo-Portfolio-Optimization/main.py`：使用蒙地卡羅模擬（Monte Carlo Simulation）找出資產配置的最佳權重，最大化報酬 / 最小化風險（基於現代投資組合理論 Efficient Frontier）。  
+   - `Monte-Carlo-Portfolio-Optimization-main.py`：使用蒙地卡羅模擬（Monte Carlo Simulation）找出資產配置的最佳權重，最大化報酬 / 最小化風險（基於現代投資組合理論 Efficient Frontier）。  
    - **重要感謝與引用**：  
      這個模組來自 Hunter Gould 的開源專案，我僅借用並整合進本實驗。  
      原作者：**Hunter Gould**  
