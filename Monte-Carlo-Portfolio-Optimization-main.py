@@ -35,6 +35,10 @@ data = yf.download(ASSETS, start=START_DATE, end=END_DATE, auto_adjust=False)['C
 print("下載市場基準...")
 market_data = yf.download(MARKET_REPRESENTATION, start=START_DATE, end=END_DATE)['Close']
 
+# 強制確保是單一 Series，並取出數值
+if isinstance(market_data, pd.DataFrame):
+    market_data = market_data.iloc[:, 0]   # 取第一欄（通常只有一欄）
+
 # 檢查資料是否有缺漏
 if data.isnull().values.any():
     print("警告：部分資產有 NaN 值，正在移除...")
