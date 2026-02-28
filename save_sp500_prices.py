@@ -25,7 +25,7 @@ import yfinance as yf
 
 WIKI_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 DATA_DIR = "data"
-SLEEP_BETWEEN_TICKERS = 1.0  # seconds, 可視情況調整（越大越慢越保險）
+SLEEP_BETWEEN_TICKERS = 0.2  # seconds, 可視情況調整（越大越慢越保險）
 
 def fetch_sp500_tickers():
     """
