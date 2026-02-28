@@ -32,7 +32,7 @@
      原 repo：https://github.com/Gouldh/Monte-Carlo-Portfolio-Optimization  
      原建立日期：2023 年 10 月  
 
-## 貢獻者與感謝 🙏
+## 貢獻者與感謝
 
 - **ChatGPT-5.0**：撰寫了專案中 99% 的 Python 程式碼
 - **Yahoo Finance**：免費提供高品質歷史價格資料。
