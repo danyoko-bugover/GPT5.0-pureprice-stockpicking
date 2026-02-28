@@ -12,8 +12,6 @@ import matplotlib.font_manager as fm
 mpl.rcParams['font.family'] = ['Heiti TC', 'PingFang TC', 'Hiragino Sans', 'Microsoft YaHei', 'Arial Unicode MS', 'sans-serif']
 mpl.rcParams['axes.unicode_minus'] = False  # 避免負號變方塊
 
-
-
 # -----------------------------------------------------------------------------------
 # Author: Hunter Gould (原作者) + 修改版
 # Description: Monte Carlo Portfolio Optimization - Efficient Frontier 
