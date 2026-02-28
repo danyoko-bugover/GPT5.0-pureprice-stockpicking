@@ -1,5 +1,4 @@
 # clean_data_folders_fixed.py
-# 修正版：直接用 input() 等待使用者確認，不用複雜非阻塞
 
 import os
 import shutil
