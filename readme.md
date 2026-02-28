@@ -1,7 +1,7 @@
 # GPT-5.0 Pure Price Stock Picking  
 **純價格資料讓 GPT-5.0 選股實驗**  
-*Only Price Data: Can GPT-5.0 Pick Good Stocks?*
-**實驗核心**：只給 ChatGPT-5.0 股票的歷史價格資料（OHLCV，無基本面、財報、消息面），它能選出好股嗎？這是個有趣的「盲測」AI 選股能力實驗。
+
+**實驗核心**：只給 ChatGPT-5.0 股票的歷史價格資料（OHLCV，無基本面、財報、消息面），它能選出好股嗎？
 
 ## 專案流程
 
